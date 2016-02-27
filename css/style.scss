@@ -4,8 +4,10 @@
 @import '../_sass/syntax-highlighting';
 
 
-$site-primary: rgb(255, 69, 69);
-$site-secondary: #FF7B7B;
+$site-primary: rgb(255, 101, 81);
+$site-secondary: rgb(53, 138, 158);
+$light-gray: rgb(242,243,244);
+$dark-gray: #333;
 
 %oswald { font-family: 'Oswald', sans-serif; }
 %roboto { font-family: 'Roboto Condensed', sans-serif; }
@@ -26,9 +28,9 @@ a {
     outline: none !important;
     text-decoration: none !important;
     transition: all 225ms ease;
-    color: $site-secondary;
+    color: yellow;
 
-    &:hover { color: #6165FF; }
+    &:hover { color: $site-secondary; }
 }
 .btn {
     text-transform: uppercase;
@@ -37,7 +39,7 @@ a {
 }
 h1, h2, h3, h4, h5, h6 { @extend %oswald; }
 ::selection {
-    background: #086AFF;
+    background: #086AFFgr;
     color: #fff;
 }
 nav.navbar {
@@ -83,7 +85,7 @@ h1.special {
     font-size: 69px;
     line-height: 69px;
     font-weight: 700;
-    color: $site-primary;
+    color: green;
 
     span {
         display: inline-block;
@@ -142,7 +144,7 @@ h1.special {
             width: 100%;
             height: 100%;
             transition: all 225ms ease;
-            transform: scale(1);
+            transform: scale(0.5);
 
             &:before {
                 position: absolute;
