@@ -1,7 +1,6 @@
 # Site Settings
 title: 'med.io'
 description: 'A blog of tables'
-url: 'http://bngarren.github.io' # the base hostname & protocol for your site
 footer_text: 'Ben Garren (c) 2016'
 
 # Admin Settings

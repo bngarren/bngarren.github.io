@@ -1,5 +1,5 @@
 # Where things are
-url: 'http://bngarren.github.io' # the base hostname & protocol for your site
+url: 'http://localhost:8080' # the base hostname & protocol for your site
 source:      .
 destination: ./_site
 plugins_dir:     ./_plugins
