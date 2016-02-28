@@ -1,3 +1,16 @@
+## WORKFLOW
+
+1) Open CMD.exe and navigate to project root
+2) 'vagrant up' to boot up the virtual machine and ready it up
+3) 'vagrant ssh' to get in to the VM
+4) navigate to 'cd /vagrant' which takes you to project root on the VM
+5) start jekyll server
+
 ## To start jekyll server
 
 jekyll serve --config _config.yml,_config_dev.yml --host 0.0.0.0 --watch --force_polling
+
+
+## Notes
+
+- Ability to edit files from host machine (ie. with sublime) and these changes will be available to VM
