@@ -11,6 +11,3 @@ lead_text: 'What is your differential for dysmenorrhea?'
 Test post can be divided into primary and secondary.
 
 References:
--
--
--
