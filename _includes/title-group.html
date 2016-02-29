@@ -7,11 +7,16 @@
         {% if page.featured_video_id %}
         <iframe src="https://www.youtube.com/embed/{{ page.featured_video_id }}" frameborder="0" allowfullscreen></iframe>
         {% endif %}
+
+
     </div>
 {% endif %}
 
 <div class="title-group">
+
     <h1 class="special">
+
+
         <span>
         {% if page.title %}
             {{ page.title }}
@@ -19,16 +24,37 @@
             {{ site.data.global.title }}
         {% endif %}
         </span>
+
     </h1>
     {% if page.id %}
     <aside>
-        {{ page.date | date: "%m.%d.%y" }}
+        {{ page.date | date: '%B %d, %Y' }}
         {% if page.categories != empty %}
             &middot;
             {% for category in page.categories %}
                 <span>{{ category }}</span>
             {% endfor %}
         {% endif %}
+            &middot;
+
+        {% if page.share == true %}
+            <ul class="share-buttons">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-reddit-alien"></i></a></li>
+            </ul>
+        {% endif %}
+        <br>
+
+        {% if page.tags != empty %}
+        <ul class="tags">
+            {% for tag in page.tags %}
+            <li>{{ tag }}</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+
+
     </aside>
     {% endif %}
     <p class="lead">
