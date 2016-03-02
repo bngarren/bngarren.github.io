@@ -5944,7 +5944,8 @@ body {
   font-size: 18px;
   line-height: 30px;
   padding-top: 51px;
-  -webkit-font-smoothing: antialiased; }
+  -webkit-font-smoothing: antialiased;
+  background-color: #fefdfb; }
 
 p {
   margin-bottom: 30px; }
@@ -5974,6 +5975,12 @@ a {
 
 nav.navbar-inverse {
   background-color: #333;
+  background-color: #333333;
+  background-image: -moz-linear-gradient(0deg, #333333, #474747 73px);
+  background-image: -webkit-linear-gradient(0deg, #333333, #474747 73px);
+  background-image: -o-linear-gradient(0deg, #333333, #474747 73px);
+  background-image: -ms-linear-gradient(0deg, #333333, #474747 73px);
+  background-image: linear-gradient(0deg, #333333, #474747 73px);
   color: #f2f3f4; }
 
 nav.navbar {
@@ -6014,24 +6021,24 @@ h1.special {
     position: relative;
     padding: 0 15px;
     max-width: 1000px;
-    background: white;
-    z-index: 1000; }
-    h1.special span:before, h1.special span:after {
-      content: '';
-      position: absolute;
-      display: block;
-      height: 1px;
-      background: #e8e8e8;
-      width: 99999999px;
-      top: 50%;
-      transform: translateY(-50%); }
-    h1.special span:before {
-      left: 100%; }
-    h1.special span:after {
-      right: 100%; }
+    background: #fefdfb;
+    z-index: 1000;
+    /*         &:before, &:after {
+                content: '';
+                position: absolute;
+                display: block;
+                height: 1px;
+                background: #e8e8e8;
+                width: 99999999px;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+    
+            &:before { left: 100%; }
+            &:after { right: 100%; } */ }
 
 .tile {
-  background: white;
+  background: #fefdfb;
   padding: 5px;
   margin: 0;
   margin-bottom: 60px; }
@@ -6046,7 +6053,7 @@ h1.special {
 .post-info h2 {
   color: #ff6551;
   font-size: 2em;
-  line-height: 1.5em;
+  line-height: 1.3em;
   font-weight: bold;
   margin: 0;
   margin-left: -2px;
@@ -6108,7 +6115,7 @@ h1.special {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background: white;
+  background: #fefdfb;
   border: 1px solid #f2f3f4; }
   .featured .img {
     background-size: cover;
@@ -6149,7 +6156,9 @@ aside {
 .topper {
   height: 500px;
   position: relative;
-  margin-top: 20px; }
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px; }
   .topper .img {
     position: absolute;
     top: 0;
@@ -6219,8 +6228,14 @@ pre {
     margin-top: 20px; }
 
   h1.special {
-    font-size: 49px;
-    line-height: 50px; }
+    font-size: 47px;
+    line-height: 48px; }
 
   .title-group {
-    margin-bottom: 30px; } }
+    margin-bottom: 30px; }
+
+  .post-info h2 {
+    line-height: 1.2em; } }
+@media only screen and (max-width: 768px) {
+  .featured {
+    margin-bottom: 10px; } }
