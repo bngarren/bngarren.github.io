@@ -1,26 +1,46 @@
----
----
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>{{ site.data.global.title | xml_escape }}</title>
- <link href="{{ site.data.global.url }}/atom.xml" rel="self"/>
- <link href="{{ site.data.global.url }}/"/>
- <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>{{ site.data.global.url }}</id>
+ <title>med.io</title>
+ <link href="/atom.xml" rel="self"/>
+ <link href="/"/>
+ <updated>2016-03-02T00:59:11+00:00</updated>
+ <id></id>
  <author>
-   <name>{{ site.data.global.admin_name }}</name>
-   <email>{{ site.data.global.admin_email }}</email>
+   <name>Ben Garren</name>
+   <email>bngarren@gmail.com</email>
  </author>
 
- {% for post in site.posts %}
+ 
  <entry>
-   <title>{{ post.title }}</title>
-   <link href="{{ site.data.global.url }}{{ post.url }}"/>
-   <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>{{ site.data.global.url }}{{ post.id }}</id>
-   <content type="html">{{ post.content | xml_escape }}</content>
+   <title>Drugs Used for Neuromuscular Blockade in General Anesthesia</title>
+   <link href="/neuromuscular-blockade-drugs"/>
+   <updated>2016-03-01T22:42:34+00:00</updated>
+   <id>/neuromuscular-blockade-drugs</id>
+   <content type="html">&lt;p&gt;The 2 major classes of drugs are depolarizing versus non-depolarizing.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Succinylcholine&lt;/em&gt; is the protypical drug of the depolarizing class and &lt;em&gt;rocuronium&lt;/em&gt; is a popular choice in the non-depolarizing group.&lt;/p&gt;
+</content>
  </entry>
- {% endfor %}
+ 
+ <entry>
+   <title>Indications for Urgent Dialysis</title>
+   <link href="/indications-for-urgent-dialysis"/>
+   <updated>2016-02-27T22:42:34+00:00</updated>
+   <id>/indications-for-urgent-dialysis</id>
+   <content type="html">&lt;p&gt;Some reasons for urgent dialyis may include a) b) c). But, remember that E) and D) should be considered as well.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Test title2</title>
+   <link href="/dysmenorrhea"/>
+   <updated>2016-02-26T22:24:00+00:00</updated>
+   <id>/dysmenorrhea</id>
+   <content type="html">&lt;p&gt;Test post can be divided into primary and secondary.&lt;/p&gt;
+
+</content>
+ </entry>
+ 
 
 </feed>
