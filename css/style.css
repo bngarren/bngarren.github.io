@@ -6014,7 +6014,8 @@ h1.special {
     position: relative;
     padding: 0 15px;
     max-width: 1000px;
-    background: white; }
+    background: white;
+    z-index: 1000; }
     h1.special span:before, h1.special span:after {
       content: '';
       position: absolute;
