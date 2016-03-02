@@ -6013,7 +6013,8 @@ h1.special {
     display: inline-block;
     position: relative;
     padding: 0 15px;
-    max-width: 1000px; }
+    max-width: 1000px;
+    background: white; }
     h1.special span:before, h1.special span:after {
       content: '';
       position: absolute;
