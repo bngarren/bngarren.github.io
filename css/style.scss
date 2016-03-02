@@ -124,7 +124,7 @@ h1.special {
     background: white;
     padding: 5px;
     margin: 0;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 
     iframe {
         position: absolute;
@@ -191,11 +191,37 @@ h1.special {
     letter-spacing: 0.05em;
     
     &:hover {
-      background-color: #eee;
+      border: 1px solid $dark-gray;
+    }
+
+    a:link, a:active, a:visited {
+        color: $dark-gray;
+    }
+
+    a:hover {
+        color: $site-primary;
     }
   }
   
 }
+
+.archive-list {
+    list-style-type: none;
+    margin-top: 20px;
+    line-height: 30px;
+
+    li {
+        display: inline-block;
+        vertical-align: bottom;
+        line-height: normal;
+    }
+}
+
+
+.small {
+    font-size: 0.8em;
+}
+
 .featured {
   position: relative;
   display: block;
@@ -224,6 +250,29 @@ h1.special {
 
 aside {
     margin-top: 10px;
+}
+
+
+.refs-box {
+    margin-top: 40px;
+    color: lighten($dark-gray, 20%);
+
+    h3 {
+        font-size: 18px;
+        border-bottom: 1px solid $light-gray;
+        padding-bottom: 3px;
+    }
+
+    .ref-count {
+        font-size: 0.8em;
+    }
+
+}
+
+.ref {
+
+    display: block;
+    font-size: 0.9em;
 }
 
 .site-footer {
@@ -309,6 +358,13 @@ aside {
 pre {
     margin: 75px -100px;
 }
+
+.pagination > .active > a, .pagination > .active > a:hover, 
+.pagination > .active > a:focus, .pagination > .active > span, 
+.pagination > .active > span:hover, .pagination > .active > span:focus {
+    background-color: $site-secondary;
+}
+
 
 
 @media only screen and (max-width : 991px) {

@@ -1,0 +1,13 @@
+---
+layout: inner
+title: ''
+date: 2016-02-27 22:42:34
+categories: Table 
+tags: 
+featured_image: 'picture.png'
+lead_text: ''
+share: true
+refs:
+  - name: 'http://www.uptodate.com/contents/induction-of-general-anesthesia'
+    link: self
+---
