@@ -6041,7 +6041,7 @@ h1.special {
   background: #fefdfb;
   padding: 5px;
   margin: 0;
-  margin-bottom: 60px; }
+  margin-bottom: 70px; }
   .tile iframe {
     position: absolute;
     display: block;
@@ -6148,7 +6148,7 @@ aside {
   font-size: 0.9em; }
 
 .site-footer {
-  margin-top: 200px; }
+  margin-top: 20px; }
 
 .pagination-wrap {
   text-align: center; }
