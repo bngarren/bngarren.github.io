@@ -5,8 +5,8 @@
     <description>A blog of tables</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 06 Mar 2016 17:17:47 +0000</pubDate>
-    <lastBuildDate>Sun, 06 Mar 2016 17:17:47 +0000</lastBuildDate>
+    <pubDate>Sun, 06 Mar 2016 17:25:26 +0000</pubDate>
+    <lastBuildDate>Sun, 06 Mar 2016 17:25:26 +0000</lastBuildDate>
     <generator>Jekyll v3.0.3</generator>
     
       <item>
@@ -64,45 +64,6 @@
         
         
         <category>Table</category>
-        
-      </item>
-    
-      <item>
-        <title>Indications for Urgent Dialysis</title>
-        <description>&lt;p&gt;Some reasons for urgent dialyis may include a) b) c). But, remember that E) and D) should be considered as well.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 27 Feb 2016 22:42:34 +0000</pubDate>
-        <link>/indications-for-urgent-dialysis</link>
-        <guid isPermaLink="true">/indications-for-urgent-dialysis</guid>
-        
-        <category>nephrology</category>
-        
-        <category>mneumonic</category>
-        
-        <category>medicine</category>
-        
-        
-        <category>Table</category>
-        
-      </item>
-    
-      <item>
-        <title>Test title2</title>
-        <description>&lt;p&gt;Test post can be divided into primary and secondary.&lt;/p&gt;
-
-</description>
-        <pubDate>Fri, 26 Feb 2016 22:24:00 +0000</pubDate>
-        <link>/dysmenorrhea</link>
-        <guid isPermaLink="true">/dysmenorrhea</guid>
-        
-        <category>OB/GYN</category>
-        
-        <category>pathology</category>
-        
-        <category>differential</category>
-        
-        
-        <category>medicine</category>
         
       </item>
     
