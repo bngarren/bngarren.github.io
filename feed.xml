@@ -5,9 +5,44 @@
     <description>A blog of tables</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 03 Mar 2016 21:46:35 +0000</pubDate>
-    <lastBuildDate>Thu, 03 Mar 2016 21:46:35 +0000</lastBuildDate>
+    <pubDate>Sun, 06 Mar 2016 17:17:47 +0000</pubDate>
+    <lastBuildDate>Sun, 06 Mar 2016 17:17:47 +0000</lastBuildDate>
     <generator>Jekyll v3.0.3</generator>
+    
+      <item>
+        <title>Drugs used for neuromuscular blockade during general anesthesia</title>
+        <description>&lt;p&gt;There are two classes of neuromuscular blocking drugs (NMBD) used as paralytic agents during the induction of general anesthesia–&lt;strong&gt;depolarizing&lt;/strong&gt; and &lt;strong&gt;nondepolarizing&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Some reasons for using neuromuscular blockade in the OR:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Paralyze vocal cords and jaw muscules to allow for endotracheal intubation&lt;/li&gt;
+  &lt;li&gt;Paralyze respiratory muscles so that ventilation can be controlled&lt;/li&gt;
+  &lt;li&gt;Paralyze the abdominal muscles intraoperatively during abdominal or laparoscopic surgery&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p class=&quot;highlight&quot;&gt;
+  NMBDs do not have analgesic or anesthetic effects and should always be given &lt;strong&gt;after&lt;/strong&gt; the patient is sufficiency anesthetized
+  &lt;/p&gt;
+
+&lt;p class=&quot;highlight&quot;&gt;
+  Due to risk for &lt;strong&gt;acute hyperkalemia&lt;/strong&gt;, caution when giving succinylcholine to burn or trauma patients, and to children due to possible unrecognized muscular dystrophy.
+  &lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Sugammadex&lt;/strong&gt; is a newer drug that can be used for reversal of nondepolarizing NMBDs such as rocuronium. It basically encapsulates and inactivates the NMBD (very different from neostigmine) and has no effect at the neuromuscular junction&lt;sup&gt;3&lt;/sup&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 04 Mar 2016 22:42:34 +0000</pubDate>
+        <link>/neuromuscular-blockade-drugs</link>
+        <guid isPermaLink="true">/neuromuscular-blockade-drugs</guid>
+        
+        <category>pharmacology</category>
+        
+        <category>anesthesia</category>
+        
+        
+        <category>Table</category>
+        
+      </item>
     
       <item>
         <title>Otitis externa versus acute otitis media</title>
@@ -26,25 +61,6 @@
         <category>pathology</category>
         
         <category>differential</category>
-        
-        
-        <category>Table</category>
-        
-      </item>
-    
-      <item>
-        <title>Drugs Used for Neuromuscular Blockade in General Anesthesia</title>
-        <description>&lt;p&gt;The 2 major classes of drugs are depolarizing versus non-depolarizing.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Succinylcholine&lt;/em&gt; is the protypical drug of the depolarizing class and &lt;em&gt;rocuronium&lt;/em&gt; is a popular choice in the non-depolarizing group.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 01 Mar 2016 22:42:34 +0000</pubDate>
-        <link>/neuromuscular-blockade-drugs</link>
-        <guid isPermaLink="true">/neuromuscular-blockade-drugs</guid>
-        
-        <category>pharmacology</category>
-        
-        <category>anesthesia</category>
         
         
         <category>Table</category>
