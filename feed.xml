@@ -5,9 +5,48 @@
     <description>A blog of tables</description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 06 Mar 2016 17:38:02 +0000</pubDate>
-    <lastBuildDate>Sun, 06 Mar 2016 17:38:02 +0000</lastBuildDate>
+    <pubDate>Wed, 09 Mar 2016 16:02:25 +0000</pubDate>
+    <lastBuildDate>Wed, 09 Mar 2016 16:02:25 +0000</lastBuildDate>
     <generator>Jekyll v3.0.3</generator>
+    
+      <item>
+        <title>Antibiotics used for coverage of Pseudomonas aeruginosa</title>
+        <description>&lt;p&gt;&lt;strong&gt;P. aeruginosa&lt;/strong&gt; is a Gram-negative bacillus well-known for its blue-green pus and multiple mechanisms of drug resistance. It’s associated with several infections in the hospital setting such as ventilator-associated pneumonia, central venous catheter infection, UTIs, and surgical site infections.&lt;/p&gt;
+
+&lt;p&gt;Conditions that are prone to Pseudomonas infection:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Cystic fibrosis&lt;/li&gt;
+  &lt;li&gt;Immunosuppression/neutropenia&lt;/li&gt;
+  &lt;li&gt;Burns&lt;/li&gt;
+  &lt;li&gt;Diabetes&lt;/li&gt;
+  &lt;li&gt;Foreign bodies (e.g,vascular grafts, orthopedic implants)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The general approach to treatment in cases of suspected Pseudomonas bacteremia/septicemia is to first start combination therapy with an &lt;em&gt;extended-spectrum beta-lactam and either an aminoglycoside or a fluoroquinolone&lt;/em&gt;. However, there is a trend towards &lt;strong&gt;monotherapy with piperacillin-tazobactam&lt;/strong&gt;&lt;sup&gt;2&lt;/sup&gt; due to the nephrotoxicity associated with aminoglycosides.&lt;/p&gt;
+
+&lt;p&gt;De-escalate (narrow) the antibiotic coverage once suspceptibility testing returns.&lt;/p&gt;
+
+&lt;p class=&quot;highlight&quot;&gt;
+  Piperacillin is often combined with &lt;strong&gt;tazobactam&lt;/strong&gt; in order to overcome the beta-lactamases produced by Gram-negative bacteria. Tazobactam doesn’t add activity against pseudomonas.
+&lt;/p&gt;
+
+&lt;p class=&quot;highlight&quot;&gt;
+  &lt;em&gt;Ertapenem&lt;/em&gt; is a carbapenem that does NOT have antipseudomonal activity.
+&lt;/p&gt;
+</description>
+        <pubDate>Tue, 08 Mar 2016 22:42:34 +0000</pubDate>
+        <link>/drugs-against-pseudomonas</link>
+        <guid isPermaLink="true">/drugs-against-pseudomonas</guid>
+        
+        <category>pharmacology</category>
+        
+        <category>infectious disease</category>
+        
+        
+        <category>Table</category>
+        
+      </item>
     
       <item>
         <title>Drugs used for neuromuscular blockade during general anesthesia</title>
